@@ -2,8 +2,8 @@ public class Card {
     String front;
     String back;
 
-    public Card(String question, String answer) {
-        this.front = question;
-        this.back = answer;
+    public Card(String front, String back) {
+        this.front = front;
+        this.back = back;
     }
 }

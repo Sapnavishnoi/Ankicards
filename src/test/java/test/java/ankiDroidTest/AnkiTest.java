@@ -28,11 +28,9 @@ public class AnkiTest {
         Deck programming = new Deck("programming");
         List<Card> cards =new ArrayList<>();
         Card card = new Card("head command used for what","give begning lines of file");
+        cards.add(card);
         programming.addCards("head command used for what","give begning lines of file");
-        assertEquals("[head command used for what,give begning lines of file]",programming.addcards().toString());
+        assertEquals(cards,programming.addcards());
 
     }
-
-
-
 }

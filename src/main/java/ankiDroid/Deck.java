@@ -17,7 +17,7 @@ public class Deck {
         cards.add(card);
     }
 
-    public List<Card> addcards() {
+    public List<Card> addcards(){
         return cards;
     }
 }

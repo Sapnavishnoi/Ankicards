@@ -12,13 +12,12 @@ public class Deck {
     }
 
 
-    public List<Card> addCards(String front, String back) {
+    public void addCards(String front, String back) {
         Card card = new Card(front, back);
         cards.add(card);
-        return cards;
     }
 
-//    public List<Card> addcards(){
-//        return cards;
-//    }
+    public List<Card> getcards(){
+        return cards;
+    }
 }
